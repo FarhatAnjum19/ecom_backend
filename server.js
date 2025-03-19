@@ -13,7 +13,7 @@ const app=express();
 
 app.use(cors({
     origin: 'https://ecom-fronted-taupe.vercel.app',
-  }));
+}));
 
 // app.use(cors({
 //     origin: 'ecom-frontend-seven-omega.vercel.app','https://ecom-fronted-taupe.vercel.app'
