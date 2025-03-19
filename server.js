@@ -18,6 +18,8 @@ app.use(cors({
 // app.use(cors({
 //     origin: 'ecom-frontend-seven-omega.vercel.app','https://ecom-fronted-taupe.vercel.app'
 // }));
+
+
 // app.use(cors({
 //     origin: function (origin, callback) {
 //       if (!origin || allowedOrigins.includes(origin)) {
