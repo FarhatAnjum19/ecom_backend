@@ -11,8 +11,14 @@ const app=express();
 //     "ecom-frontend-seven-omega.vercel.app"]
    
 
+const allowedOrigins = [
+    'https://ecom-fronted-taupe.vercel.app',
+    'http://localhost:5173' // Add localhost for testing
+];
+
 app.use(cors({
-    origin: 'https://ecom-fronted-taupe.vercel.app',
+    origin: allowedOrigins,
+    credentials: true
 }));
 
 // app.use(cors({
