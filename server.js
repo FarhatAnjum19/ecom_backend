@@ -9,11 +9,15 @@ const app=express();
 
 // const allowedOrigins=["ecom-frontend-4sw70ig3r-farhatanjums-projects.vercel.app",
 //     "ecom-frontend-seven-omega.vercel.app"]
-    
+   
 
 app.use(cors({
-    origin: 'ecom-frontend-seven-omega.vercel.app','https://ecom-fronted-taupe.vercel.app'
-}));
+    origin: 'https://ecom-fronted-taupe.vercel.app',
+  }));
+
+// app.use(cors({
+//     origin: 'ecom-frontend-seven-omega.vercel.app','https://ecom-fronted-taupe.vercel.app'
+// }));
 // app.use(cors({
 //     origin: function (origin, callback) {
 //       if (!origin || allowedOrigins.includes(origin)) {
